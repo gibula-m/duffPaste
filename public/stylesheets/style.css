@@ -1,0 +1,35 @@
+body {
+  background-image: url("../images/memphis-colorful.png");
+}
+nav{
+  background-color:white;
+}
+.content{
+  background-color: #F6F9FF;
+  border:1px solid blanchedalmond;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.paste-header{
+  text-align: center;
+  border-bottom: 1px dotted #88898C;
+}
+.paste-content{
+  text-align: center;
+}
+.btn-full-width{
+  margin-top:10px;
+  width:100%;
+}
+.data{
+  background-color: white;
+  padding: 15px;
+}
+/*code::before {*/
+   /*content: counter(listing) ".s";*/
+   /*display: inline-block;*/
+   /*width: 8em;*/
+   /*padding-left: auto;*/
+   /*margin-left: auto;*/
+   /*text-align: right;*/
+ /*}*/

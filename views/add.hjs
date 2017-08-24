@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>duffPaste</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <body>
+<nav class="navbar navbar-light" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="./images/icon.png" alt="Smiley face" height="45" width="45" style="margin-top:-10px;"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>  Add</a></li>
+      <!--<li><a href="/all"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>  All</a></li>-->
+    </ul>
+  </div>
+</nav>
+
+<div class ="container content">
+<form action="" method="POST">
+<label for="paste">Paste text here</label>
+<textarea name="paste" class="form-control" id="paste" rows="15"></textarea>
+<select name="syntax" class="form-control" >
+  <option value="nohighlight">No highlight</option>
+  <option value="java">Java</option>
+  <option value="html">HTML</option>
+  <option value="golang">GoLang</option>
+  <option value="cs">C#</option>
+  <option value="cpp">C++</option>
+  <option value="bash">Bash</option>
+  <option value="docker">Dockerfile</option>
+  <option value="lua">Lua</option>
+  <option value="php">PHP</option>
+  <option value="perl">Perl</option>
+  <option value="python">Python</option>
+  <option value="ruby">Ruby</option>
+  <option value="sql">SQL</option>
+  <option value="scala">Scala</option>
+  <option value="matlab">Matlab</option>
+
+
+</select>
+<button type="submit" class="btn btn-primary btn-full-width">Submit</button>
+</form>
+
+</div>
+
+
+  </body>
+
+
+</html>

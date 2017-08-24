@@ -1,0 +1,14 @@
+# Directories #
+build/
+target/
+libs/
+tmp/
+node_modules/
+######################
+# IDEA
+######################
+*.iml
+*.ipr
+*.iws
+.idea/
+atlassian-ide-plugin.xml
